@@ -84,8 +84,7 @@ With Christmas and the New Year all over and done with it was time to start codi
 
 I started coding by coming up with the initial Colour Platte I would use throughout the website, as seen below:
 
-![Image of Website Colour Palette]
-(https://benking.co.nz/Images/PortfolioSite/ColourPalette.png)
+![Image of Website Colour Palette](https://benking.co.nz/Images/PortfolioSite/ColourPalette.png)
 
 From this I then started by creating a new Project in Visual Studio 2019, and starting by coding initially the Home Page, with the Navbar, Header on it. Once I was happy with the design and look,
 I then moved the Elements that would be repeated on all the Pages to the View_Layouts File, which would save me having to retype the code on each page.
