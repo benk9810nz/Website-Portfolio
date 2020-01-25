@@ -12,8 +12,7 @@ I first started work on planning my website in my last week of SIT in 2019, 4th-
 During this week I Plotted down what key Messages I wanted to Showcase on my website, as well as coming up with
 the Initial Site Map of the website as seen in the below Image.
 
-![Image of Site Map]
-(https://benking.co.nz/Assets/PortfolioStite/SiteMap.png)
+![Image of Site Map](https://benking.co.nz/Images/PortfolioStite/SiteMap.png)
 
 ### Hosting & Domains
 After deciding that my website will have these 4 Pages, I then investigated Hosting and Domain Services Options
@@ -52,30 +51,20 @@ I knew that I wanted to use the Bootstrap HTML Front-End Framework with how this
 
 #### Initial Wireframes
 
-![Image of Wireframe Home Page]
-(https://benking.co.nz/Assets/PortfolioSite/Initial/WF1.png)
-![Image of Wireframe About Page]
-(https://benking.co.nz/Assets/PortfolioSite/Initial/WF2.png)
-![Image of Wireframe Resume Page]
-(https://benking.co.nz/Assets/PortfolioSite/Initial/WF3.png)
-![Image of Wireframe Portfolio Website]
-(https://benking.co.nz/Assets/PortfolioSite/Initial/WF4.png)
-!(Image of Wireframe Contact Website)
-(https://benking.co.nz/Assets/PortfolioSite/Initial/WF5.png)
+![Image of Draft Wireframe Home Page](https://benking.co.nz/Images/PortfolioSite/Initial/WF1.png)
+![Image of Draft Wireframe About Page](https://benking.co.nz/Images/PortfolioSite/Initial/WF2.png)
+![Image of Draft Wireframe Resume Page](https://benking.co.nz/Images/PortfolioSite/Initial/WF3.png)
+![Image of Draft Wireframe Portfolio Page](https://benking.co.nz/Images/PortfolioSite/Initial/WF4.png)
+!(Image of Draft Wireframe Contact Page)(https://benking.co.nz/Images/PortfolioSite/Initial/WF5.png)
 
 ### Final Wireframes
 After designing these wireframes, I showed them to several friends and collages from work, getting Feedback and then redesigning them to the Below, Final Wireframes which I used to create my website:
 
-![Image of Wireframe Home Page]
-(https://benking.co.nz/Assets/PortfolioSite/Initial/WF1.png)
-![Image of Wireframe About Page]
-(https://benking.co.nz/Assets/PortfolioSite/Initial/WF2.png)
-![Image of Wireframe Resume Page]
-(https://benking.co.nz/Assets/PortfolioSite/Initial/WF3.png)
-![Image of Wireframe Portfolio Website]
-(https://benking.co.nz/Assets/PortfolioSite/Initial/WF4.png)
-!(Image of Wireframe Contact Website)
-(https://benking.co.nz/Assets/PortfolioSite/Initial/WF5.png)
+![Image of Final Wireframe Home Page](https://benking.co.nz/Images/PortfolioSite/Initial/WF1.png)
+![Image of Final Wireframe About Page](https://benking.co.nz/Images/PortfolioSite/Initial/WF2.png)
+![Image of Final Wireframe Resume Page](https://benking.co.nz/Images/PortfolioSite/Initial/WF3.png)
+![Image of Final Wireframe Portfolio Page](https://benking.co.nz/Images/PortfolioSite/Initial/WF4.png)
+!(Image of Final Wireframe Contact Page)(https://benking.co.nz/Images/PortfolioSite/Initial/WF5.png)
 
 By now it was the week before Christmas so in order to ensure I had a break over the holiday period, I decided to leave this project for a couple of weeks and resuming it on the 10th of January.
 
@@ -84,7 +73,7 @@ With Christmas and the New Year all over and done with it was time to start codi
 
 I started coding by coming up with the initial Colour Platte I would use throughout the website, as seen below:
 
-![Image of Website Colour Palette](https://benking.co.nz/Images/PortfolioSite/ColourPalette.png)
+![Image of Website Colour Palette]https://benking.co.nz/Images/PortfolioSite/ColourPalette.png)
 
 From this I then started by creating a new Project in Visual Studio 2019, and starting by coding initially the Home Page, with the Navbar, Header on it. Once I was happy with the design and look,
 I then moved the Elements that would be repeated on all the Pages to the View_Layouts File, which would save me having to retype the code on each page.
