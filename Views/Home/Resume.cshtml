@@ -1,0 +1,135 @@
+﻿
+@{
+    ViewData["Title"] = "Resume";
+}
+<head>
+    <style>
+        ul.timeline {
+            list-style-type: none;
+            position: relative;
+        }
+
+        a.btns {
+            width: 200px;
+        }
+
+        ul.timeline:before {
+            content: ' ';
+            background: #d4d9df;
+            display: inline-block;
+            position: absolute;
+            left: 29px;
+            width: 2px;
+            height: 100%;
+            z-index: 400;
+        }
+
+        ul.timeline > li {
+            margin: 20px 0;
+            padding-left: 20px;
+        }
+
+            ul.timeline > li:before {
+                content: ' ';
+                background: white;
+                display: inline-block;
+                position: absolute;
+                border-radius: 50%;
+                border: 3px solid #22c0e8;
+                left: 20px;
+                width: 20px;
+                height: 20px;
+                z-index: 400;
+            }
+
+        .date {
+            font-size: 12px;
+            margin-bottom: 0;
+        }
+
+        .job {
+            font-size: 14px;
+            margin-bottom: 0;
+        }
+        /*CSS Required for the Bootstrap Timeline - Source: https://https://bootsnipp.com/snippets/xrKXW */
+    </style>
+</head>
+<br />
+<div class="row">
+    <div class="col-md-4">
+        <h2 class="text-center">Education</h2>
+        <hr />
+        <ul class="timeline">
+            <li>
+                <a target="_blank" href="#">Bachelor of Information Technology</a>
+                <p class="text-muted date">Jan 2018 - Dec 2020</p>
+                <p>I am currently studying towards a Bachelor of Information Technology in my third and final year at the Southern Institute of Technology (SIT).</p>
+            </li>
+            <li>
+                <a href="#">New Zealand Geography Scholarship</a>
+                <p class="date text-muted">November 2017</p>
+                <p>I obtained a Scholarship in Geography during my final year at James Hargst College</p>
+            </li>
+            <li>
+                <a href="#">NCEA Level 3 Excellence Endorsed</a>
+                <p class="text-muted date">October 2017</p>
+                <p>As a High School Student at James Hargest College I obtained a NCEA Level 3 Certificate with Excellence Endorsements while participating in a range of Extra-Curricular Groups</p>
+            </li>
+        </ul> <!-- Education Timeline -->
+        <div class="row">
+        </div>
+    </div>
+    <div class="col-md-4">
+        <h2 class="text-center">Skills</h2>
+        <hr />
+        <p class="text-center" style="margin-bottom: 5px;">I have experience with the following Programming Languages:</p>
+        <ul class="list-group text-center ">
+            <li class="list-group-item">Microsoft C#</li>
+            <li class="list-group-item">Pascal Delphi v7</li>
+            <li class="list-group-item">Hyper Text Markup Laguage 5 (HTML 5)</li>
+            <li class="list-group-item">Cascadding Style Sheet (CSS)</li>
+            <li class="list-group-item">Bootstrap v4 (HTML Framework)</li>
+            <li class="list-group-item">JADE Object Orientated Database</li>
+            <li class="list-group-item">Structured Query Language (SQL)</li>
+            <li class="list-group-item">Oracle Java</li>
+            <li class="list-group-item">Unity Gaming Engine</li>
+        </ul> <!-- Skills (Programming) -->
+    </div>
+    <div class="col-md-4">
+        <h2 class="text-center">Employment History</h2>
+        <hr />
+        <ul class="timeline">
+            <li>
+                <a target="_blank" href="#">Chilled Foods Assistant</a>
+                <p class="text-muted job">Countdown Supermarkets</p>
+                <p class="text-muted date">Dec 2016 - Present</p>
+                <p>At Countdown I work within the Perishable and Checkout Deparments at the Waikiwi Store, filling the shelves and serving customers</p>
+            </li>
+            <li>
+                <a target="_blank" href="#">Sound & Lighting Technican</a>
+                <p class="text-muted job">ILT Kidzone Festival</p>
+                <p class="text-muted date">July 2016</p>
+                <p>I was the Sound & Lighting Technician for the ILT Kidzone in Invercargill coordinating the Visual and Sound Requirements for the Festival Performers</p>
+            </li>
+        </ul> <!-- Employment History Timeline -->
+    </div>
+</div>
+<br />
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <p class="text-center">
+            <a class="btn btns btn-dark" target="_blank" href="~/Assets/Ben King JHC Reference.pdf">Download JHC Reference</a>
+        </p>
+    </div> <!--JHC Reference PDF Button-->
+
+    <div class="col-md-4">
+        <p class="text-center"><a href="~/Assets/Ben King Degree Transcript.pdf" target="_blank" class="btn btns btn-dark">Download Degree Transcript</a></p>
+    </div> <!-- SIT Degree Transcript PDF Button -->
+
+    <div class="col-md-4">
+        <p class="text-center d-md-none"><a target="_blank" href="~/Assets/Ben King CV.pdf" class="btn btns btn-dark d-md-block">Download Curriculum Vitae</a></p> <!--Show if on Smaller them MD ViewPoint (Keeps Size Consistent) -->
+        <p class="text-center d-md-block d-sm-none"><a target="_blank" href="~/Assets/Ben King CV.pdf" class="btn btns btn-dark">Download Curriculum Vitae</a></p> <!--Show if on MD ViewPoint (Keeps Size Consistent) -->
+    </div> <!-- Curriculum Vitae PDF Button -->
+</div>
+</div> <!-- /container -->

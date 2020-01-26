@@ -1,0 +1,143 @@
+﻿@model WebsitePortfolio.Models.ContactFormModel
+
+@{
+    ViewData["Title"] = "Contact";
+}
+
+<style>
+    /* The popup form - hidden by default */
+    .form-popup {
+        display: block;
+        position: fixed;
+        bottom: 0;
+        border: 3px solid #f1f1f1;
+        background-color: white;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 50%;
+    }
+
+    /* Add styles to the form container */
+    .form-container {
+        padding: 10px;
+        background-color: white;
+        width: 100%;
+    }
+        .form-container .btn
+  {
+        background-color: #4CAF50;
+        color: white;
+        padding: 16px 20px;
+        border: none;
+        cursor: pointer;
+        margin-bottom: 10px;
+        opacity: 0.8;
+    }
+
+    /* Add a red background color to the cancel button */
+    .form-container .cancel {
+        background-color: red;
+    }
+
+    /* Add some hover effects to buttons */
+    .form-container .btn:hover, .open-button:hover {
+        opacity: 1;
+    }
+</style>
+<h1 class="text-center pt-2">Contact Me</h1>
+<p class="w-responsive mx-auto mb-4 text-center">
+    Do you have any questions or want to get in touch? Please do not hesitate to contact me directly through the contact details or
+    the form below. I look forward to hearing from you
+</p>
+<hr />
+<section>
+    <div class="row">
+        <!--Grid column-->
+        <div class="col-md-9 mb-md-0 mb-5">
+            <p class="text-muted font-italic">Fields with an <strong>*</strong> are required
+                                                 <br />
+            A copy of your Message and your Details will be sent to your Email Address</p>
+            <form id="contact-form" name="contact-form" asp-action="Contact">
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                <!--Grid row-->
+                <div class="row">
+                    <!--Grid column-->
+                    <div class="col-md-6">
+                        <div class="md-form mb-0">
+                            <label class="control-label">Your Name*</label>
+                            <input type="text" asp-for="Name" class="form-control">
+                            <span asp-validation-for="Name" class="text-danger"></span>
+                        </div>
+                    </div>
+                    <!--Grid column-->
+                    <div class="col-md-6">
+                        <div class="md-form mb-0">
+                            <label class="control-label">Your Email*</label>
+                            <input type="email" asp-for="Email" class="form-control">
+                            <span asp-validation-for="Email" class="text-danger"></span>
+                        </div>
+                    </div>
+                    <!--Grid column-->
+                </div>
+                <!--Grid row-->
+                <!--Grid row-->
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="md-form mb-0">
+                            <label class="control-label">Your Phone Number</label>
+                            <input type="tel" asp-for="PhoneNumber" class="form-control">
+                        </div>
+                    </div>
+                </div>
+                <!--Grid row-->
+                <div class="row">
+                    <!--Grid column-->
+                    <div class="col-md-12">
+                        <div class="md-form">
+                            <label class="control-label">Your Message*</label>
+                            <textarea type="text" asp-for="Message" rows="2" class="form-control md-textarea"></textarea>
+                            <span asp-validation-for="Message" class="text-danger"></span>
+                        </div>
+                    </div>
+                </div>
+                <!--Grid row-->
+                <br />
+                <div class="form-group">
+                    <p class="text-sm-center text-md-left">
+                        <input name="submit" type="submit" value="Submit" class="btn btn-primary"/>
+                    </p>
+                </div>
+            </form>
+        </div>
+        <!--Grid column-->
+        <!--Grid column-->
+        <div class="col-md-3 text-center">
+            <ul class="list-unstyled mb-0">
+                <li>
+                    <i class="fas fa-map-marker-alt fa-2x"></i> <br />
+                    <a target="_blank" href="https://goo.gl/maps/JgGzQXququHdGmEH7">27 Helmsdale Street <br /> Waverley <br /> Invercargill 9810 <br /> New Zealand</a>
+                </li>
+
+                <li>
+                    <i class="fas fa-phone mt-4 fa-2x"></i> <br />
+                    <a href="tel:+640279328043">+64 027 932 8043</a>
+                </li>
+
+                <li>
+                    <i class="fas fa-envelope mt-4 fa-2x"></i> <br />
+                    <a href="mailto:benjaminkingnz@gmail.com">benjaminkingnz@gmail.com</a>
+                </li>
+            </ul>
+        </div>
+        <!--Grid column-->
+    </div>
+</section>
+
+@if (ViewBag.result != null)
+{
+  @*  <p>@ViewBag.result</p> *@
+    <script>
+      alert("Thank your for your Message, it has been successfully sent. A copy of your message & details has been sent to the email address your provided");
+    </script>
+}

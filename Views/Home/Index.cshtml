@@ -1,0 +1,75 @@
+﻿@{
+    ViewData["Title"] = "Home page";
+}
+
+<div class="jumbotron jumbotron-fluid ">
+    <div class="container">
+        <div class="col-md-12 px-0">
+            <div class="row">
+                <div class="col-md-8 col-sm-12">
+                    <h1 class="display-4 font-italic">Benjamin King!</h1>
+                    <p class="lead my-3">Hi, my name is Benjamin King (Ben) and I am a Student studying in my final year of a Bachelor of Information Technology at the Southern Institute of Technology in Invercargill.</p>
+                    <hr class="lead mb-0">
+                    <p>
+                        Feel free to explore my website, which I have designed from scratch to showcase my talent and experience. If you have any question or want to get in touch feel free to contact me through the details
+                        on my contact page
+                    </p>
+                    <p class="lead text-sm-center text-md-left">
+                        <a class="btn btn-primary btn-lg" asp-action="Contact" role="button">Contact Me</a>
+                    </p>
+
+                </div>
+                <div class="col-md-4 col-sm-12 text-center">
+                    <img src="~/Images/BenKing.png" style="height: 380px;" class="img-fluid rounded" />
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="container marketing text-center">
+
+    <!-- Three columns of text below the carousel -->
+    <div class="row">
+        <div class="col-md-4">
+            <img class="e" src="~/Images/AboutMe.png" alt="Generic placeholder image" width="140" height="140">
+            <h2>About Me</h2>
+            <p>
+                I'm a born New Zealander, born and raised in Invercargill, Southland New Zealand.
+                As a teenager I attended James Hargest College through my High School Years and
+                I am currently studying in my third year and final year at SIT.
+            </p>
+            <p class="d-md-none "><a class="btn btn-success" asp-action="About" role="button" style="text-align:center;">View More &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-md-4">
+            <img class="" src="~/Images/Resume.png" alt="Generic placeholder image" width="140" height="140">
+            <h2>Resume</h2>
+            <p>
+                Throughout High School at James Hargest College I was involved in several Extra-Curricular Activies,
+                as well as helping out in the local community. I currently work part-time at Countdown Waikiwi (Countdown NZ)
+                as a Chilled Foods Assistant.
+            </p>
+            <p class="d-md-none "><a class="btn btn-success" asp-action="Resume" role="button" style="text-align:center;">View More &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-md-4">
+            <img class="" src="~/Images/Portfolio.png" alt="Generic placeholder image" width="140" height="140">
+            <h2>Portfolio</h2>
+            <p>I have learnt and have experience with a range of Programming and Computer Languages such as:</p>
+            <ul>
+                <li>Microsoft Framework - C Sharp (C#)</li>
+                <li>Structured Query Language (SQL)</li>
+                <li>Object Orientated Databases - JADE</li>
+            </ul>
+            <h6 style="text-align: center;">& Several other Programming Languages</h6>
+            <p class="d-md-none "><a class="btn btn-success" asp-action="Portfolio" role="button" style="text-align:center;">View More &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+    </div><!-- /.row -->
+    <row>
+        <div class="row d-none d-md-flex">
+            <div class="col-md-4"><p><a class="btn btn-success" asp-action="About" role="button">View More &raquo;</a></p></div>
+            <div class="col-md-4"><p><a class="btn btn-success" asp-action="Resume" role="button">View More &raquo;</a></p></div>
+            <div class="col-md-4"><p><a class="btn btn-success" asp-action="Portfolio" role="button">View More &raquo;</a></p></div>
+        </div>
+    </row>
+</div>
