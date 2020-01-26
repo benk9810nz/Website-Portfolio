@@ -88,4 +88,5 @@ Portfolio Icon: https://www.flaticon.com/free-icons/briefcase
 Resume Icon: https://icons8.com/icons/set/resume
 About Me Icon: https://freesvg.org/users-profile-icon
 
-Other Icons featured on my website such as the LinkedIn, GitHub and icons on the Contact Page were sourced from the **Font Awesome Collection**																								@Benjamin King
+Other Icons featured on my website such as the LinkedIn, GitHub and icons on the Contact Page were sourced from the **Font Awesome Collection**																								
+								@Benjamin King
