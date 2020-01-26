@@ -7,7 +7,8 @@ Over the 2019-2020 Summer Break I decided that my Summer Project would be to cre
 
 ### Site Layout & Key Messages
 I first started planning my website in my last week of SIT in 2019, 4th-10th November. During this week I wrote down what key Messages I wanted to Showcase on my website, as well as creating the Initial Site Map of the website as seen in the below Image.
-![Image of Site Map](ReadMeImages/PortfolioSite/SiteMap.png)
+
+![Image of Site Map](https://benking.co.nz/Images/PortfolioSite/SiteMap.png)
 
 ### Hosting & Domains
 After deciding that my website will have these 4 Pages, I then investigated Hosting and Domain Services Options first.
