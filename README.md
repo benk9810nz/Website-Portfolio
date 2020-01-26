@@ -30,15 +30,15 @@ Such I had a clear idea of what content and information I wanted to showcase on 
 
 #### Initial Wireframes
 Home Page
-![Image of Draft Wireframe Home Page](https://benking.co.nz/Images/PortfolioSite/Initial/WF1.png)
+![Image of Draft Wireframe Home Page](https://benking.co.nz/Images/PortfolioSite/Initial/DWF1.png)
 About Page
-![Image of Draft Wireframe About Page](https://benking.co.nz/Images/PortfolioSite/Initial/WF2.png)
+![Image of Draft Wireframe About Page](https://benking.co.nz/Images/PortfolioSite/Initial/DWF2.png)
 Resume Page
-![Image of Draft Wireframe Resume Page](https://benking.co.nz/Images/PortfolioSite/Initial/WF3.png)
+![Image of Draft Wireframe Resume Page](https://benking.co.nz/Images/PortfolioSite/Initial/DWF3.png)
 Portfolio Page
-![Image of Draft Wireframe Portfolio Page](https://benking.co.nz/Images/PortfolioSite/Initial/WF4.png)
+![Image of Draft Wireframe Portfolio Page](https://benking.co.nz/Images/PortfolioSite/Initial/DWF4.png)
 Contact Page
-![Image of Draft Wireframe Contact Page](https://benking.co.nz/Images/Images/PortfolioSite/Initial/WF5.png)
+![Image of Draft Wireframe Contact Page](https://benking.co.nz/Images/PortfolioSite/Initial/DWF5.png)
 
 #### Final Wireframes
 After designing these wireframes, I showed them to several friends and colleagues from work, getting Feedback and then redesigning them to the Below, Final Wireframes which I used to create my website:
