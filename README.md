@@ -44,11 +44,11 @@ Contact Page
 #### Final Wireframes
 After designing these wireframes, I showed them to several friends and colleagues from work, getting Feedback and then redesigning them to the Below, Final Wireframes which I used to create my website:
 
-![Image of Final Wireframe Home Page](https://benking.co.nz/Images/PortfolioSite/Initial/WF1.png)
-![Image of Final Wireframe About Page](https://benking.co.nz/Images/PortfolioSite/Initial/WF2.png)
-![Image of Final Wireframe Resume Page](https://benking.co.nz/Images/PortfolioSite/Initial/WF3.png)
-![Image of Final Wireframe Portfolio Page](https://benking.co.nz/Images/PortfolioSite/Initial/WF4.png)
-![Image of Final Wireframe Contact Page](https://benking.co.nz/Images/PortfolioSite/Initial/WF5.png)
+![Image of Final Wireframe Home Page](https://benking.co.nz/Images/PortfolioSite/Final/WF1.png)
+![Image of Final Wireframe About Page](https://benking.co.nz/Images/PortfolioSite/Final/WF2.png)
+![Image of Final Wireframe Resume Page](https://benking.co.nz/Images/PortfolioSite/Final/WF3.png)
+![Image of Final Wireframe Portfolio Page](https://benking.co.nz/Images/PortfolioSite/Final/WF4.png)
+![Image of Final Wireframe Contact Page](https://benking.co.nz/Images/PortfolioSite/Final/WF5.png)
 
 By now it was the week before Christmas so in order to ensure I had a break over the holiday period, I decided to leave this project for a couple of weeks and resuming it after the 10th of January.
 
