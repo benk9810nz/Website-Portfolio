@@ -119,4 +119,4 @@
 
 	Other Icons featured on my website such as the LinkedIn, GitHub and icons on the Contact Page were sourced from the **Font Awesome Collection**
 
-	<p style="text-align: center;">Benjamin King</p>
+	@Benjamin King
