@@ -11,7 +11,7 @@
 	During this week I wrote down what key Messages I wanted to Showcase on my website, as well as creating 
 	the Initial Site Map of the website as seen in the below Image.
 
-	![Image of 	Site Map](https://benking.co.nz/Images/PortfolioStite/SiteMap.png)
+	![Image of Site Map](https://benking.co.nz/Images/PortfolioStite/SiteMap.png)
 
 	### Hosting & Domains
 	After deciding that my website will have these 4 Pages, I then investigated Hosting and Domain Services Options
