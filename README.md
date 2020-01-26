@@ -7,6 +7,7 @@ Over the 2019-2020 Summer Break I decided that my Summer Project would be to cre
 
 ### Site Layout & Key Messages
 I first started planning my website in my last week of SIT in 2019, 4th-10th November. During this week I wrote down what key Messages I wanted to Showcase on my website, as well as creating the Initial Site Map of the website as seen in the below Image.
+
 ![Image of Site Map](https://benking.co.nz/Images/PortfolioStite/SiteMap.png)
 
 ### Hosting & Domains
@@ -53,7 +54,8 @@ By now it was the week before Christmas so in order to ensure I had a break over
 
 ### Front-End and Back-End Coding
 With Christmas and the New Year all over and done with it was time to start coding and making my Website come to reality.I started coding by creating the initial Colour Platte I would use throughout the website, as seen below:
-![Image of Website Colour Palette]https://benking.co.nz/Images/PortfolioSite/ColourPalette.png)
+
+![Image of Website Colour Palette](https://benking.co.nz/Images/PortfolioSite/ColourPalette.png)
 
 From this I then started by creating a new Project in Visual Studio 2019, and starting by coding initially the Home Page, with the Navbar, Header on it. Once I was happy with the design and look, I then moved the Elements that would be repeated on all the Pages to the View_Layouts File, which would mean I would not have to retype the code on each page, and incorporating a Feature from ASPNet.Core MVC. 
 
