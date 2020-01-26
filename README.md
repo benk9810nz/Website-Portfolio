@@ -11,7 +11,7 @@
 	During this week I wrote down what key Messages I wanted to Showcase on my website, as well as creating 
 	the Initial Site Map of the website as seen in the below Image.
 
-	![Image of Site Map](https://benking.co.nz/Images/PortfolioStite/SiteMap.png)
+	![Image of Site Map](ReadMeImages/PortfolioSite/SiteMap.png)
 
 	### Hosting & Domains
 	After deciding that my website will have these 4 Pages, I then investigated Hosting and Domain Services Options
@@ -50,24 +50,24 @@
 
 	#### Initial Wireframes
 	Home Page
-	![Image of Draft Wireframe Home Page](https://benking.co.nz/Images/PortfolioSite/Initial/WF1.png)
+	![Image of Draft Wireframe Home Page](ReadMeImages/PortfolioSite/Initial/WF1.png)
 	About Page
-	![Image of Draft Wireframe About Page](https://benking.co.nz/Images/PortfolioSite/Initial/WF2.png)
+	![Image of Draft Wireframe About Page](ReadMeImages/PortfolioSite/Initial/WF2.png)
 	Resume Page
-	![Image of Draft Wireframe Resume Page](https://benking.co.nz/Images/PortfolioSite/Initial/WF3.png)
+	![Image of Draft Wireframe Resume Page](ReadMeImages/PortfolioSite/Initial/WF3.png)
 	Portfolio Page
-	![Image of Draft Wireframe Portfolio Page](https://benking.co.nz/Images/PortfolioSite/Initial/WF4.png)
+	![Image of Draft Wireframe Portfolio Page](ReadMeImages/PortfolioSite/Initial/WF4.png)
 	Contact Page
-	![Image of Draft Wireframe Contact Page](https://benking.co.nz/Images/PortfolioSite/Initial/WF5.png)
+	![Image of Draft Wireframe Contact Page](ReadMeImages/Images/PortfolioSite/Initial/WF5.png)
 
 	#### Final Wireframes
 	After designing these wireframes, I showed them to several friends and colleagues from work, getting Feedback and then redesigning them to the Below, Final Wireframes which I used to create my website:
 
-	![Image of Final Wireframe Home Page](https://benking.co.nz/Images/PortfolioSite/Initial/WF1.png)
-	![Image of Final Wireframe About Page](https://benking.co.nz/Images/PortfolioSite/Initial/WF2.png)
-	![Image of Final Wireframe Resume Page](https://benking.co.nz/Images/PortfolioSite/Initial/WF3.png)
-	![Image of Final Wireframe Portfolio Page](https://benking.co.nz/Images/PortfolioSite/Initial/WF4.png)
-	![Image of Final Wireframe Contact Page](https://benking.co.nz/Images/PortfolioSite/Initial/WF5.png)
+	![Image of Final Wireframe Home Page](ReadMeImages/PortfolioSite/Initial/WF1.png)
+	![Image of Final Wireframe About Page](ReadMeImages/PortfolioSite/Initial/WF2.png)
+	![Image of Final Wireframe Resume Page](ReadMeImages/PortfolioSite/Initial/WF3.png)
+	![Image of Final Wireframe Portfolio Page](ReadMeImages/PortfolioSite/Initial/WF4.png)
+	![Image of Final Wireframe Contact Page](ReadMeImages/PortfolioSite/Initial/WF5.png)
 
 	By now it was the week before Christmas so in order to ensure I had a break over the holiday period, I decided to leave this project for a couple of weeks and resuming it after the 10th of January.
 
@@ -76,7 +76,7 @@
 
 	I started coding by creating the initial Colour Platte I would use throughout the website, as seen below:
 
-	![Image of Website Colour Palette]https://benking.co.nz/Images/PortfolioSite/ColourPalette.png)
+	![Image of Website Colour Palette] (ReadMeImages/PortfolioSite/ColourPalette.png)
 
 	From this I then started by creating a new Project in Visual Studio 2019, and starting by coding initially the Home Page, with the Navbar, Header on it. Once I was happy with the design and look,
 	I then moved the Elements that would be repeated on all the Pages to the View_Layouts File, which would mean I would not have to retype the code on each page, and incorporating a Feature from ASPNet.Core MVC.
