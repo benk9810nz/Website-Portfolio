@@ -7,12 +7,7 @@ Over the 2019-2020 Summer Break I decided that my Summer Project would be to cre
 
 ### Site Layout & Key Messages
 I first started planning my website in my last week of SIT in 2019, 4th-10th November. During this week I wrote down what key Messages I wanted to Showcase on my website, as well as creating the Initial Site Map of the website as seen in the below Image.
-
-<<<<<<< HEAD
-	![Image of Site Map](ReadMeImages/PortfolioSite/SiteMap.png)
-=======
-![Image of Site Map](https://benking.co.nz/Images/PortfolioSite/SiteMap.png)
->>>>>>> d5747bc03cedff42d511a8548565e0d37518cf76
+![Image of Site Map](ReadMeImages/PortfolioSite/SiteMap.png)
 
 ### Hosting & Domains
 After deciding that my website will have these 4 Pages, I then investigated Hosting and Domain Services Options first.
@@ -35,61 +30,33 @@ Such I had a clear idea of what content and information I wanted to showcase on 
 
 #### Initial Wireframes
 Home Page
-![Image of Draft Wireframe Home Page](https://benking.co.nz/Images/PortfolioSite/Initial/WF1.png)
+![Image of Draft Wireframe Home Page](ReadMeImages/PortfolioSite/Initial/WF1.png)
 About Page
-![Image of Draft Wireframe About Page](https://benking.co.nz/Images/PortfolioSite/Initial/WF2.png)
+![Image of Draft Wireframe About Page](ReadMeImages/PortfolioSite/Initial/WF2.png)
 Resume Page
-![Image of Draft Wireframe Resume Page](https://benking.co.nz/Images/PortfolioSite/Initial/WF3.png)
+![Image of Draft Wireframe Resume Page](ReadMeImages/PortfolioSite/Initial/WF3.png)
 Portfolio Page
-![Image of Draft Wireframe Portfolio Page](https://benking.co.nz/Images/PortfolioSite/Initial/WF4.png)
+![Image of Draft Wireframe Portfolio Page](ReadMeImages/PortfolioSite/Initial/WF4.png)
 Contact Page
-![Image of Draft Wireframe Contact Page](https://benking.co.nz/Images/PortfolioSite/Initial/WF5.png)
+![Image of Draft Wireframe Contact Page](ReadMeImages/Images/PortfolioSite/Initial/WF5.png)
 
-<<<<<<< HEAD
-	#### Initial Wireframes
-	Home Page
-	![Image of Draft Wireframe Home Page](ReadMeImages/PortfolioSite/Initial/WF1.png)
-	About Page
-	![Image of Draft Wireframe About Page](ReadMeImages/PortfolioSite/Initial/WF2.png)
-	Resume Page
-	![Image of Draft Wireframe Resume Page](ReadMeImages/PortfolioSite/Initial/WF3.png)
-	Portfolio Page
-	![Image of Draft Wireframe Portfolio Page](ReadMeImages/PortfolioSite/Initial/WF4.png)
-	Contact Page
-	![Image of Draft Wireframe Contact Page](ReadMeImages/Images/PortfolioSite/Initial/WF5.png)
-=======
 #### Final Wireframes
 After designing these wireframes, I showed them to several friends and colleagues from work, getting Feedback and then redesigning them to the Below, Final Wireframes which I used to create my website:
->>>>>>> d5747bc03cedff42d511a8548565e0d37518cf76
 
-![Image of Final Wireframe Home Page](https://benking.co.nz/Images/PortfolioSite/Final/WF1.png)
-![Image of Final Wireframe About Page](https://benking.co.nz/Images/PortfolioSite/Final/WF2.png)
-![Image of Final Wireframe Resume Page](https://benking.co.nz/Images/PortfolioSite/Final/WF3.png)
-![Image of Final Wireframe Portfolio Page](https://benking.co.nz/Images/PortfolioSite/Final/WF4.png)
-![Image of Final Wireframe Contact Page](https://benking.co.nz/Images/PortfolioSite/Final/WF5.png)
+![Image of Final Wireframe Home Page](ReadMeImages/PortfolioSite/Initial/WF1.png)
+![Image of Final Wireframe About Page](ReadMeImages/PortfolioSite/Initial/WF2.png)
+![Image of Final Wireframe Resume Page](ReadMeImages/PortfolioSite/Initial/WF3.png)
+![Image of Final Wireframe Portfolio Page](ReadMeImages/PortfolioSite/Initial/WF4.png)
+![Image of Final Wireframe Contact Page](ReadMeImages/PortfolioSite/Initial/WF5.png)
 
-<<<<<<< HEAD
-	![Image of Final Wireframe Home Page](ReadMeImages/PortfolioSite/Initial/WF1.png)
-	![Image of Final Wireframe About Page](ReadMeImages/PortfolioSite/Initial/WF2.png)
-	![Image of Final Wireframe Resume Page](ReadMeImages/PortfolioSite/Initial/WF3.png)
-	![Image of Final Wireframe Portfolio Page](ReadMeImages/PortfolioSite/Initial/WF4.png)
-	![Image of Final Wireframe Contact Page](ReadMeImages/PortfolioSite/Initial/WF5.png)
-=======
 By now it was the week before Christmas so in order to ensure I had a break over the holiday period, I decided to leave this project for a couple of weeks and resuming it after the 10th of January.
->>>>>>> d5747bc03cedff42d511a8548565e0d37518cf76
 
 ### Front-End and Back-End Coding
 With Christmas and the New Year all over and done with it was time to start coding and making my Website come to reality.I started coding by creating the initial Colour Platte I would use throughout the website, as seen below:
 
-![Image of Website Colour Palette](https://benking.co.nz/Images/PortfolioSite/ColourPalette.png)
+![Image of Website Colour Palette] (ReadMeImages/PortfolioSite/ColourPalette.png)
 
-From this I then started by creating a new Project in Visual Studio 2019, and starting by coding initially the Home Page, with the Navbar, Header on it. Once I was happy with the design and look, I then moved the Elements that would be repeated on all the Pages to the View_Layouts File, which would mean I would not have to retype the code on each page, and incorporating a Feature from ASPNet.Core MVC. 
-
-<<<<<<< HEAD
-	![Image of Website Colour Palette] (ReadMeImages/PortfolioSite/ColourPalette.png)
-=======
 From here I then continued by working on the About Page, as well as the Resume Page. On the About Page I wanted to have it very personal while professional, so decided to include some fun facts such as my favourite food, current book etc. I also decided to showcase my key talents such as the Programming Languages I have experience with.
->>>>>>> d5747bc03cedff42d511a8548565e0d37518cf76
 
 On my Contact Page I decided to reuse some C# Code from one of my previous applications (a SendEmail Application), so that the Form would create a Model (Part of the MVC Process) which it would then run a C# Class using the **Mailkit** Library, sending this to my email Address from the Domain Email using SMTP. This required me fining my SMTP Settings for my Domain Provided Email (Provided through Octopoly), as well as fine tuning my C# class so it would send the email in a nice presentable Format. I enhanced the class so that it would send 2 Emails, 1 to me for every enquiry as well as 1 to the person who filled it in so that they had a record of their Message and Details they entered in.
 
