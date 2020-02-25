@@ -1,7 +1,7 @@
 # Portfolio Website
 
 ## Introduction
-Over the 2019-2020 Summer Break I decided that my Summer Project would be to create an ASPNet.Core MVC Portfolio Website to showcase my work and talent.
+Over the 2019-2020 Summer Break, I decided that my Summer Project would be to create an ASPNet.Core MVC Portfolio Website to showcase my work and talent.
 
 ## Timeline
 
@@ -13,11 +13,11 @@ I first started planning my website in my last week of SIT in 2019, 4th-10th Nov
 ### Hosting & Domains
 After deciding that my website will have these 4 Pages, I then investigated Hosting and Domain Services Options first.
 
-Initially I considered Self-Hosting my website on a Raspberry Pi using the compiled ARM Executible File of the Website, and then using nginx to reverse the Proxy allowing people to tunnel into the website using the domain. However, I decided against using this due to how the network my Raspberry Pi is connected to is on a Dynamic IP Address, meaning that I would need to either obtain a Static IP Address or using a Dynamic DNS Provider such as **No IP**.
+Initially, I considered Self-Hosting my website on a Raspberry Pi using the compiled ARM Executable File of the Website and then using Nginx to reverse the Proxy allowing people to tunnel into the website using the domain. However, I decided against using this due to how the network my Raspberry Pi is connected to is on a Dynamic IP Address, meaning that I would need to either obtain a Static IP Address or using a Dynamic DNS Provider such as **No IP**.
 
-I also decided against this due to how it would mean that my website would not have much DNS Protection opposed to an actual Company, so I then signed up for a 3 Month Trial of a Linux Hosting Subscription with OpenHost (A New Zealand Based Hosting Provider). However, I ended up cancelling this due to how OpenHost restricted my website to a Static HTML (or PhP) Website or requiring me to use WordPress to create my website. Because of how I wanted to use ASPNet.Core MVC for my website, this would not suit my requirements.
+I also decided against this due to how it would mean that my website would not have much DNS Protection opposed to an actual Company, so I then signed up for a 3 Month Trial of a Linux Hosting Subscription with OpenHost (A New Zealand Based Hosting Provider). However, I ended up canceling this due to how OpenHost restricted my website to a Static HTML (or PHP) Website or requiring me to use WordPress to create my website. Because of how I wanted to use ASPNet.Core MVC for my website this didn’t suit my requirements.
 
-I then did some reasearch and found that as a Student Studying at Higher Education (Polytechnic/University) I could receive a 12 Months Free Subscription to several parts of a Microsoft Azure Subscription, such as the App Services Feature which would host my ASPNet.Core MVC Website. Due to how this would be hosted on Microsoft Azure, a reliable hosting Provider, I decided to go with this approach due to how I could then route My Domain to the IP Address (by setting the A Record) of the App Service.
+I then did some research and found that as a Student Studying at Higher Education (Polytechnic/University) I could receive a 12 Months Free Subscription to several parts of a Microsoft Azure Subscription, such as the App Services Feature which would host my ASPNet.Core MVC Website. Due to how this would be hosted on Microsoft Azure, a reliable hosting provider, I decided to go with this approach due to how I could then route My Domain to the IP Address (by setting the A Record) of the App Service.
 
 After deciding on this, I then needed to decide on and purchase a Domain. It seemed obvious to me that if it was possible, I wanted the Domain **benking.co.nz** with how it was my name and would make	it easy to remember for people that wanted to look at my website. A quick search showed that it was available, so I then just needed to decide on a Domain Provider. Unfortunately, there are a lot of Domain Providers available, so I ended up going with Octopoly, a New Zealand Company due to how I had previously brought a domain, and if they didn't fit my needs I could always transfer my domain to another Provider 90 days after purchasing my Domain.
 
@@ -88,4 +88,4 @@ About Me Icon: https://freesvg.org/users-profile-icon
 
 Other Icons featured on my website such as the LinkedIn, GitHub and icons on the Contact Page were sourced from the **Font Awesome Collection**	
 
-@Benjamin King
+@ Benjamin King 2020
